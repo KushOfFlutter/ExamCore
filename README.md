@@ -1,4 +1,4 @@
-# flutter_pract
+# ExamCore
 
 A new Flutter project.
 
