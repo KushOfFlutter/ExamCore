@@ -1,5 +1,5 @@
 name: flutter_pract
-description: "A new Flutter project"
+description: "Learn smart. Practice better. Succeed."
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -15,14 +15,21 @@ dependencies:
   firebase_core: ^4.0.0
   firebase_auth: ^6.0.0
   cupertino_icons: ^1.0.8
-  shared_preferences: ^2.2.3
+  shared_preferences: ^2.5.6
+  supabase_flutter: ^2.18.3
   
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.14.4
 
-  flutter_lints: ^6.0.0
+flutter_launcher_icons:
+    android: true
+    ios: true
+    image_path: "assets/images/app_icon.jpeg"
+
+flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
@@ -30,3 +37,4 @@ flutter:
   assets:
     - assets/images/study.png
     - assets/images/jamb.png
+    - assets/images/app_icon.jpeg
